@@ -418,7 +418,7 @@ img {
 .gridGallery {
   max-width: 100%;
   display: flex;
-  padding: 50px 30px 50px 30px;
+  padding: 50px 60px 40px 30px;
   transition: 1s ease;
   margin-bottom: 30px;
 }
@@ -658,7 +658,7 @@ img {
 
 @media screen and (max-width: 1125px) {
   .aboutconatiber {
-    max-width: 100%;
+    max-width: 80%;
     grid-template-columns: repeat(1, 1fr);
      margin: auto;
     transition: 1s;
@@ -676,9 +676,7 @@ img {
   .readmore{
     padding: 14px 30px;
   }
-.img_background{
-height: 100vh;
-}
+
 .menus_links
  {
   display: none;
@@ -737,6 +735,7 @@ height: 100vh;
     box-shadow: 0 4px 16px 0 rgb(0 0 0 0.3%);
     transition: 1s ease-in;
   }
+
 }
 
 @media screen and (max-width: 804px) {
@@ -794,16 +793,37 @@ height: 100vh;
   .aboutconatiber {
     padding: 120px;
   }
+  
   .welcomesite .welcome,
   .statitics .welcome,
   .whatweDo .welcome {
     font-size: 30px;
   }
-  .img_background{
+  
+  .Hometxet {
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+ .Hometxet {
+  position: absolute;
+  left: 6%;
+  top: 30%;
+}
+.Hometxet h1{
+  font-size: 30px;
+  line-height: 1px;
+}
+.woundreday{
+  line-height: 16px;
+  margin-bottom: 1rem;
+}
+.img_background{
   height: 600px;
   object-fit: cover;
  
 }
+
 }
 @media screen and (max-width: 560px) {
   .about1,
