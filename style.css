@@ -799,6 +799,11 @@ height: 100vh;
   .whatweDo .welcome {
     font-size: 30px;
   }
+  .img_background{
+  height: 600px;
+  object-fit: cover;
+ 
+}
 }
 @media screen and (max-width: 560px) {
   .about1,
