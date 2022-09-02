@@ -800,11 +800,7 @@ img {
     font-size: 30px;
   }
   
-  .Hometxet {
-    position: absolute;
-    left: 6%;
-    top: 30%;
-}
+ 
  .Hometxet {
   position: absolute;
   left: 6%;
@@ -822,6 +818,14 @@ img {
   height: 600px;
   object-fit: cover;
  
+}
+
+BigText {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 3px;
+  word-spacing: 6px;
+  
 }
 
 }
